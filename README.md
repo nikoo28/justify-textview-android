@@ -9,18 +9,18 @@ There are many ways available if you search for it. I found a really simple way 
 Just import the two files "TextJustifyUtils.java" and "TextViewEx.java" in your project.
 
 Now, if you use normal textView like in xml:-
-        TextView
-                android:id="@+id/original"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/lorum_ipsum"
+	TextView
+	android:id="@+id/original"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/lorum_ipsum"
 
 Simply use
-        yourpackagename.TextViewEx
-                android:id="@+id/changed"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/lorum_ipsum"
+	yourpackagename.TextViewEx
+	android:id="@+id/changed"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/lorum_ipsum"
 
 				
 Define a variable and set justify to be true,
