@@ -8,22 +8,11 @@ There are many ways available if you search for it. I found a really simple way 
 
 Just import the two files "TextJustifyUtils.java" and "TextViewEx.java" in your project.
 
-Now, if you use normal textView like in xml:-
-	TextView
-	android:id="@+id/original"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="@string/lorum_ipsum"
+See the layout file in the project to see how to use the TextViewEx for justifying text
 
-Simply use
-	yourpackagename.TextViewEx
-	android:id="@+id/changed"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="@string/lorum_ipsum"
+Once the xml is done, go to your MainActivity
 
-				
-Define a variable and set justify to be true,
+- Define a variable and set justify to be true,
 
 TextViewEx changed = (TextViewEx) findViewById(R.id.changed);
 changed.setText(getResources().getString(R.string.lorum_ipsum),true);
