@@ -152,7 +152,7 @@ public class TextViewEx extends TextView {
 
 			block = block.trim();
 
-			if (block.length() == 0) {
+			if (block.length() <= 1) {
 				continue;
 			}
 
